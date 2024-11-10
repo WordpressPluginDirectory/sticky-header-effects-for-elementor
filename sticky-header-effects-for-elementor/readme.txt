@@ -1,12 +1,12 @@
 === Sticky Header Effects for Elementor ===
 
-Contributors: rwattner, dgovea
+Contributors: rwattner, dgovea, posimyththemes
 Donate Link: https://www.paypal.me/StickyHeaderEffects
 Tags: Elementor, Elementor Page Builder, Add-ons, Header, Sticky Header
 Requires at least: 5.3
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,7 +30,7 @@ This plugin is meant to be an add-on to Elementor Pro page builder as it's not a
 * Shrink Header - An effect which changes section min-height to maximize space and achieve a slim style without losing functionality.
 (Remember that the "shrink" effect is limited by the height and padding of the header content. See the F.A.Q.)
 * Shrink Logo - Ability to adjust the logo height after scrolling
-*Change Logo Color - Change the logo image color before or after the user scrolls. Useful for switching header design from monocromatic to full color
+*Change Logo Color - Change the logo image color before or after the user scrolls. Useful for switching header design from monochromatic to full color
 *Blur Background - Add a modern blur effect to a semi-transparent header background color after scrolling
 *Hide Header on Scroll Down - Hides the header if scrolling down, and shows header if scrolling up. Has selectable distance to start the effect.
 
@@ -88,6 +88,9 @@ Sticky Header Options for Elementor is extremely light-weight. You also have the
 3. Current effects settings.
 
 == Changelog ==
+= 1.7.4 =
+- Maintenance: Wordpress 6.7 compatibility update
+
 = 1.7.2 =
 - Fixed: Bugs
 
@@ -266,6 +269,9 @@ Tweaked: Logo color change optimized so "full color" option no longer overwrites
 - Initial stable release
 
 == Upgrade Notice ==
+= 1.7.3 =
+- Maintenance: Wordpress 6.7 compatibility update
+
 = 1.7.2 =
 - Fixed: Bugs
 

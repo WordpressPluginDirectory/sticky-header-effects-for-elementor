@@ -43,14 +43,14 @@ class Module extends Module_Base {
 				'prefix_class'  => 'she-header-'
 			]
 		);
-		
+
 		$element->add_control(
 			'donate_notice',
 			[
 				'type' => Controls_Manager::ALERT,
 				'alert_type' => 'alert',
 				'heading' => esc_html__( 'Donations', 'she-header' ),
-				'content' => esc_html__( 'Unfortunitely this plugin has come to an end. If you have enjoyed using it please consider ' , 'she-header' ) . ' <br><a href="https://www.paypal.me/StickyHeaderEffects">' . esc_html__( 'DONATING HERE', 'she-header' ) . '</a>' . ' <br><br>' . esc_html__( 'Instead of realeasing a paid Pro verion I will be adding a few Pro features to this free version. However, I will only be providing minimal support from now on.', 'she-header' ) ,
+				'content' => esc_html__( 'If you have enjoyed using the plugin please consider ' , 'she-header' ) . ' <br><a href="https://www.paypal.me/StickyHeaderEffects">' . esc_html__( 'DONATING HERE', 'she-header' ) . '</a>' . ' <br><br>' . esc_html__( 'Instead of realeasing a paid Pro verion I will be adding a few Pro features to this free version. However, I will only be providing minimal support from now on.', 'she-header' ) ,
 				'condition' => [
 					'transparent!' => '',
 				],
