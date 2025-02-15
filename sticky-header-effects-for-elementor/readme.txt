@@ -6,7 +6,7 @@ Tags: Elementor, Elementor Page Builder, Add-ons, Header, Sticky Header
 Requires at least: 6.3
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.7.4
+Stable tag: 1.7.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,8 +89,18 @@ Sticky Header Options for Elementor is extremely light-weight. You also have the
 
 == Changelog ==
 
+= 1.7.6 =
+- Fixed: Offset issues on the frontend
+- Fixed: Minor Bug Fixes & Performance Improvements
+
+= 1.7.5 =
+- Added: Offset Option for Sticky Elements to Control the Distance from the Top With Responsive Support.
+- Added: Padding Option to Customize Spacing for Sticky Elements with Responsive Support.
+- Added: Width Option to Define the Width of Sticky Elements Dynamically With Responsive Support.
+- Fixed: Minor Bug Fixes & Performance Improvements
+
 = 1.7.4 =
-- Added: Compatibility with Elementor Containers 
+- Added: Compatibility with Elementor Containers
 - Fixed: Minor Bug Fixes & Performance Improvements
 
 = 1.7.3 =
@@ -441,8 +451,3 @@ Bug fixes
 This version adds "Sticky Header" and "Bottom Border" options.
 The sticky feature will bring the section down and overlay it on top of the page. This eliminates the need for negative margins which causes page scrolling problems.
 The bottom border feature adds bottom border width and color options when user scrolls.
-
-== Donate ==
-Enjoy using *Sticky Header Effects*? Please consider making a **[donation](https://www.paypal.me/StickyHeaderEffects)**
-Every donation helps the continued development, maintenance, and support for this plugin.
-**Thank you very much for your support!**
